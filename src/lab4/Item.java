@@ -5,8 +5,6 @@ public enum Item {
 	MILK_GALLON(4.99, 8.6),
 	WATERMELON(2.99, 20),
 	CHEETOS(1.99, 0.5);
-	
-
 
 	private double price;
 	private double weight;

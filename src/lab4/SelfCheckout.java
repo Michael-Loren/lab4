@@ -69,12 +69,13 @@ public class SelfCheckout {
 		System.out.printf("%nTotal price: %.2f%nTotal weight: %.2f%n", totalPrice, totalWeight);
 	}
 
-	public void clear(){
+	public void clear() {
 		cart.clear();
 		totalWeight = 0;
 		totalPrice = 0;
 		System.out.println("\nCleared cart\n");
 	}
+
 	public static void main(String[] args) {
 
 		SelfCheckout f = new SelfCheckout();
