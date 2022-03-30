@@ -4,7 +4,7 @@ import java.util.EnumMap;
 
 public class SelfCheckout {
 
-	private EnumMap<Item, Integer> cart = new EnumMap<Item, Integer>(Item.class);;
+	private EnumMap<Item, Integer> cart = new EnumMap<Item, Integer>(Item.class);
 	private double totalWeight = 0;
 	private double totalPrice = 0;
 
